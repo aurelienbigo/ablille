@@ -21,3 +21,5 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
 end
 
+# Use “pretty” URLs (without the `.html` suffix)
+activate :directory_indexes
