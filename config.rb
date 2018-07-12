@@ -23,3 +23,6 @@ end
 
 # Use “pretty” URLs (without the `.html` suffix)
 activate :directory_indexes
+
+#force https
+config.force_ssl = true
